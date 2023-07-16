@@ -98,3 +98,21 @@ nav li a {
         padding: 50px;
     }
 }
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.teams-img-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 24px;
+}
+.teams-container{
+display: flex;
+align-items: center;
+gap: 20px;
+}
+.teams-content{
+    padding-right: 70px;
+    padding-left: 70px;
+}
